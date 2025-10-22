@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="me.png" type="image/x-icon">
+</head>
+<body>
+    <article data-testid="test-profile-card" class="profile-card">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+        <figure data-testid="test-user-avatar" class="avatar-figure">
+            <img src="me.png" alt="User avatar photo" class="avatar-img">
+            
+        </figure>
+        
+        <header class="content-header">
+            <h2 data-testid="test-user-name">Fasinu Joshua</h2>
+        </header>
+        
+        <section class="bio-section">
+            <p data-testid="test-user-bio">A passionate developer who loves coding and exploring new tech. Based in Nigeria, working on HNG task 0.</p>
+        </section>
+        
+        <section class="time-section">
+            <span data-testid="test-user-time" id="current-time">Loading time...</span> ms
+        </section>
+        
+        <nav data-testid="test-user-social-links" class="social-nav" aria-label="Social media links">
+            <ul>
+                <li><a href="https://twitter.com/joshua" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+                <li><a href="https://github.com/joshua" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/joshua" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+            </ul>
+        </nav>
+        
+        <div class="lower-sections">
+            <section data-testid="test-user-hobbies" class="hobbies-section">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Coding</li>
+                    <li>Exploring</li>
+                    <li>Gaming</li>
+                </ul>
+            </section>
+            
+            <section data-testid="test-user-dislikes" class="dislikes-section">
+                <h3>Dislikes</h3>
+                <ul>
+                    <li>Bugs in code</li>
+                    <li>Traffic jams</li>
+                    <li>Bad energy</li>
+                </ul>
+            </section>
+        </div>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
