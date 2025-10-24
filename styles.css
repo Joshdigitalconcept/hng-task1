@@ -9,6 +9,22 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
   line-height: 1.6;
   color: #333;
+  padding: 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e6c294 0%, #EB7839 100%);
+}
+
+.container{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 30px #EB7839;
+}
+.container:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px #EB7839;
+
 }
 
 /* Contact Us Page */
